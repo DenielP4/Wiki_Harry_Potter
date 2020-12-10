@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Harry Potter</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/newstyle.css">
+    <link rel="stylesheet" href="css/style_test.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="shortcut icon" href="img/harry-potter.png" type="img/png">
+    <script src="js/test.js"></script>
+</head>
+<body>
+    <div class="section">
+        <div class="container">
+            <!-- row под название -->
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                    <h1 class="header text-center">WIZARDING WORLD</h1>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12  text-center">
+                    <a href="index.html"><img src="img/Simbol.png" class="simbol"></a>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                    <h1 class="header text-center">OF HARRY POTTER</h1>
+                </div>
+            </div>
+            <!-- row под навигационное меню -->
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <ul class="menu">
+                        <div class="col-sm-2 col-sm-offset-1">
+                            <li><a href="index.html">Home</a></li>
+                        </div> 
+                        <div class="col-sm-2">
+                            <li><a href="heroes.html">Heroes</a></li>
+                        </div>
+                        <div class="col-sm-2">
+                            <li><a href="test1.html" class="here">Test</a></li>
+                        </div>
+                        <div class="col-sm-2">
+                            <li><a href="content.html">Content</a></li>
+                        </div>
+                        <div class="col-sm-2">
+                            <li><a href="news.html">News</a></li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+            <div id="test"> 
+                <div class="header"> 
+                    <h1 class="questionNumber" style=""></h1> 
+                    <h2 class="question"></h2> 
+                    <center> 
+                        <img id="imgQ" class="responsive"> 
+                        <h4 class="score"></h4> 
+                    </center> 
+                </div> 
+                <center> 
+                    <button id="button1" class="button" onclick="Answer(this.id, 0)"></button> 
+                    <button id="button2" class="button" onclick="Answer(this.id, 1)"></button> 
+                    <button id="button3" class="button" onclick="Answer(this.id, 2)"></button> 
+                    <button id="button4" class="button" onclick="Answer(this.id, 3)"></button> 
+                    <button id="next" class="button" style="margin:15px;color: white; " onclick="next()">Следующий вопрос &raquo</button> 
+                </center> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>

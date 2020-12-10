@@ -1,0 +1,115 @@
+.container-info{
+  background-color: rgba(105, 105, 105, 0.5);
+}
+.inform{
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 2px solid white;
+}
+.hr_c{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.vnesh {
+  width: 100%;
+}
+.vnesh td{
+  padding: 5px;
+  vertical-align: center;
+}
+.vnutri td{
+  text-align: left;
+}
+.col1 { background: #ccc; }
+.col2 { background: #ffd; text-align: left;}
+
+.information-book{
+  margin: 10px;
+}
+.sector-book-name{
+  background-color: rgba(75, 0, 130, 0.9);
+  padding-bottom: 10px;
+  border: 3px;
+  border-color: #fff;
+}
+.sector-book-name h4, h5{
+  color: #fff;
+}
+.sector-book-inform h2{
+  color: #fff;
+}
+.sector-book-inform h4{
+  color: #fff;
+  text-align: left;
+}
+.cicata{
+  background-color: #778899;
+  padding: 10px;
+  border-radius: 5px;
+  height: 100%;
+  border-style: outset;
+  margin-left: 5px;
+}
+.cicata h4{
+  color: #fff;
+} 
+.navigat {
+    overflow: hidden;
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigat a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.drdown {
+    float: left;
+    overflow: hidden;
+}
+
+.drdown .drbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    background-color: black;
+}
+
+.navigat a:hover, .drdown:hover .drbtn {
+    background-color: red;
+}
+
+.drdown-con {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.drdown-con a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.drdown-con a:hover {
+    background-color: #ddd;
+}
+
+.drdown:hover .drdown-con {
+    display: block;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Harry Potter</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/newstyle.css">
+    <link rel="stylesheet" href="css/style_heroes.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="shortcut icon" href="img/harry-potter.png" type="img/png">
+    <script src="js/myFunction.js"></script>
+</head>
+<body>
+    <div class="section">
+        <div class="container">
+            <!-- row под название -->
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                    <h1 class="header text-center">WIZARDING WORLD</h1>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12  text-center">
+                    <a href="index.html"><img src="img/Simbol.png" class="simbol"></a>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                    <h1 class="header text-center">OF HARRY POTTER</h1>
+                </div>
+            </div>
+            <!-- row под навигационное меню -->
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <ul class="menu">
+                        <div class="col-sm-2 col-sm-offset-1">
+                            <li><a href="index.html">Home</a></li>
+                        </div> 
+                        <div class="col-sm-2">
+                            <li><a href="heroes.html" class="here">Heroes</a></li>
+                        </div>
+                        <div class="col-sm-2">
+                            <li><a href="test1.html">Test</a></li>
+                        </div>
+                        <div class="col-sm-2">
+                            <li><a href="content.html">Content</a></li>
+                        </div>
+                        <div class="col-sm-2">
+                            <li><a href="news.html">News</a></li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container inform">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="container-info">
+                        <h2 class="heroes text-center">Главные герои киновселенной</h2>
+                        <div class="hr_c"><hr></div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-6 img_heroes text-center">
+                                <a href="#IN"><div class="img_heroes"><button id="0" onclick="information(this.id)"><img src="img/Harry_main.jpg"></button></div></a>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 img_heroes text-center">
+                                <a href="#IN"><div class="img_heroes"><button id="1" onclick="information(this.id)"><img src="img/Hermione_main.jpg"></button></div></a>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 img_heroes text-center">
+                                <a href="#IN"><div class="img_heroes"><button id="2" onclick="information(this.id)"><img src="img/Ron_main.jpg"></button></div></a>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 img_heroes text-center">
+                                <a href="#IN"><div class="img_heroes"><button id="3" onclick="information(this.id)"><img src="img/Draco_main.jpg"></button></div></a>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 img_heroes text-center">
+                                <a href="#IN"><div class="img_heroes"><button id="4" onclick="information(this.id)"><img src="img/Snape_main.jpg"></button></div></a>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6 img_heroes text-center">
+                                <a href="#IN"><div class="img_heroes"><button id="5" onclick="information(this.id)"><img src="img/Lord_Voldemort_main.jpg"></button></div></a>
+                            </div>
+                            <script>
+                                function information(val){
+                                    let imgHero = ["img/Harry.jpg", "img/Hermiona.jpg", "img/Ron.jpg", "img/Draco.jpg", "img/Severus.jpg", "img/Volan.jpg"];
+                                    let h3Hero = ["Harry Potter", "Hermione Granger", "Ron Weasley", "Draco Malfoy", "Severus Snape", "Volan De Mort"];
+                                    let h5Desk = ["Гарри Джеймс Поттер (англ. Harry James Potter) — главный герой Поттерианы, одноклассник и лучший друг Рона Уизли и Гермионы Грейнджер, член Золотого Трио. Самый знаменитый студент Хогвартса за последние сто лет. Первый волшебник, которому удалось противостоять смертельному проклятью «Авада Кедавра», благодаря чему он стал знаменитым и получил прозвище «Мальчик, Который Выжил». Героически сражался с лордом Волан-де-Мортом и его последователями Пожирателями смерти. Единственный, кому удалось остаться живым после шести поединков с Тёмным Лордом и кто, в конце концов, победил его. Обладатель специальной награды Хогвартса «За заслуги перед школой», полученной в 1993 году за спасение школы от чудовища Тайной комнаты — василиска.", "Гермиона Джин Грейнджер (англ. Hermione Jean Granger) — одна из главных героинь Поттерианы, подруга и одноклассница Гарри Поттера и Рона Уизли, член Золотого Трио. Единственная дочь мистера Грейнджера и его жены[2].", "Рональд Билиус «Рон» Уизли (англ. Ronald Bilius «Ron» Weasley) — один из главных персонажей Поттерианы, друг и одноклассник Гарри Поттера и Гермионы Грейнджер, член Золотого Трио. Обладатель специальной награды Хогвартса «За заслуги перед школой», полученной в 1993 году за спасение школы от чудовища Тайной комнаты — василиска.", "Драко Люциус Малфой (англ. Draco Lucius Malfoy) — чистокровный волшебник, студент Хогвартса, ровесник Гарри Поттера. По многим причинам мальчики ещё на первом курсе стали заклятыми врагами. Учился на факультете Слизерин, как и многие его родственники до него. Будучи сыном Пожирателя смерти Люциуса Малфоя, Драко полностью перенял его воинственное отношение к маглам, став приверженцем чистокровной доктрины. Он довольно умён, активен, амбициозен.", "Северус Снегг (англ. Severus Snape) — самый противоречивый персонаж саги. Преподаватель зельеварения (1981—1996) и защиты от Тёмных искусств (1996—1997), декан факультета Слизерин в 1981—1997, а позже директор Школы Чародейства и Волшебства Хогвартс в 1997—1998.", "Том Марволо Реддл (англ. Tom Marvolo Riddle) — главный антагонист в серии романов о Гарри Поттере; тёмный волшебник, обладающий огромной магической силой и практически достигший бессмертия при помощи чёрной магии, а точнее — с помощью Крестражей. В волшебном мире больше известен как Лорд Волан-де-Морт (англ. Lord Voldemort)."];
+                                    document.getElementById('ImgHero').src=imgHero[val];
+                                    document.getElementById('NameHero').textContent=h3Hero[val];
+                                    document.getElementById('DeskHero').textContent=h5Desk[val];
+                                    document.querySelector(".persons0").style.visibility="visible";
+                                }
+                            </script>
+                        </div>
+                        <div class="hr_c"><hr></div>
+                        <div class="row">
+                            <a name="IN"></a>
+                            <div class="persons0" style="visibility: hidden;">
+                                <div class="col-lg-4 text-center">
+                                    <img src="" class="img-inform-left" id="ImgHero" style="widows: 149px;height: 212px">
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="inform-text-left text-center">
+                                        <h3 id="NameHero"></h3>
+                                        <h5 id="DeskHero"></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 interes">
+                    <div class="container-info">
+                        <h3 class="text-center">Интересные моменты</h3>
+                        <div class="hr_c"><hr></div>
+                        <div class="gifka text-center">
+                            <img src="img/gifka1.gif">
+                            <h5 class="text-center">Невилл убивает Нагайну</h5>
+                        </div>
+                        <div class="hr_c"><hr></div>
+                        <div class="video_content">
+                            <center>
+                                <video controls="controls" muted>
+                                    <source src="img/NewYear.mp4" type="video/mp4">
+                                </video>
+                            </center>
+                            <h5 class="text-center">Волшебные шахматы</h5>
+                        </div>
+                        <div class="hr_c"><hr></div>
+                        <div class="gifka text-center">
+                            <img src="img/gifka2.gif">
+                            <h5 class="text-center">Поцелуй Рона и Гермионы в Тайной комнате</h5>
+                        </div>
+                        <div class="hr_c"><hr></div>
+                        <div class="video_content">
+                            <center>
+                                <video controls="controls" muted>
+                                    <source src="img/Die.mp4" type="video/mp4">
+                                </video>
+                            </center>
+                            <h5 class="text-center">Долгожданная встреча</h5>
+                        </div>
+                        <div class="hr_c"><hr></div>
+                        <div class="gifka text-center">
+                            <img src="img/gifka5.gif">
+                            <h5 class="text-center">Первый взгляд на Тайную комнату</h5>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+        </div>
+    </div>
+</body>
+</html>
